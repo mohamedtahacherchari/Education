@@ -1,0 +1,70 @@
+{
+  "app": "app",
+  "version": "0.1.0",
+  "homepage": ".",
+   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@iconscout/react-unicons": "^1.1.6",
+    "@material-ui/core": "^4.11.3",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/material": "^5.14.7",
+    "@mui/styles": "^5.14.7",
+    "@mui/x-data-grid": "^6.12.0",
+    "@mui/x-date-pickers": "^6.12.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^12.1.5",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.2",
+    "dayjs": "^1.11.9",
+    "framer-motion": "^6.5.1",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-hot-toast": "^2.4.1",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.0",
+    "react-scroll": "^1.8.9",
+    "react-table": "^7.8.0",
+    "react-toastify": "^9.1.3",
+    "redux": "^5.0.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^6.1.0",
+    "sweetalert2": "^11.7.27",
+    "swiper": "^10.0.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}

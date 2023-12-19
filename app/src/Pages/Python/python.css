@@ -1,0 +1,177 @@
+.generaldesign {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.text-c{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.greenlinksformation {
+    text-transform: uppercase;
+    color: #0A6C0A;
+    margin-bottom: 10px;
+    margin-top: 0px;   
+    font-size: 18px;
+
+}
+
+.greenlinksformationtitle {
+  font-weight: bold;
+  font-size: 48px;
+  
+}
+
+.svg{
+  width: 10px;
+}
+
+.column {
+  
+  display: inline-block;
+  vertical-align: top;
+  padding: 1rem 1rem;
+  min-height: 300px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+
+  display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+
+}
+
+.divider-1 {
+  border-bottom: 1px solid #FFF;
+  background-color: #DADADA;
+  height: 1px;
+  margin: 0.5em 0px 1.5em;
+}
+
+.divider-1 span {
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #1589FF;
+}
+
+
+/* Style the counter cards */
+.cardformation {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cardformation:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movenewline{
+  margin-top: 50px;
+}
+.pp{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+table{
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  width: auto;
+
+  display: inline-block;
+}
+
+.alignall{
+  text-align: left;
+  width: 700px;
+  border-radius: 15px;
+  background-color: #5DDC9E;
+  height: auto;
+  height: 30px;
+}
+
+.alignlocks{
+  margin: auto;
+  border: 1px solid #0000;
+  padding: 8px;
+  width: auto;
+
+  display: inline-block;
+  margin-top: 10px;
+  width: 700px;
+  border-radius: 15px;
+  background-color: #fff8dc;
+  height: 30px;
+  display: inline-block;
+
+  
+}
+
+.setdivcalendar:hover {
+  background-color: rgba(72, 166, 251, 0.5);
+}
+
+.setdivcalendar{
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  width: auto;
+  margin-left: 24%;
+  display: inline-block;
+  margin-top: 10px;
+  width: 700px;
+  border-radius: 15px;
+  background-color: #5DDC9E;
+  height: 30px;
+  display: inline-block;
+  touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.setdivlock{
+  border-collapse: collapse;
+  height: 30px;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  width: auto;
+  margin-left: 24%;
+  display: inline-block;
+  margin-top: 10px;
+  width: 700px;
+  border-radius: 15px;
+  background-color: #fff8dc;
+  touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.settext{
+  margin-left: 24%;
+  margin-top: 10px;
+  width: auto;
+  display: inline-block;
+}

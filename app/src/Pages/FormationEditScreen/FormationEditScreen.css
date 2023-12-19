@@ -1,0 +1,16 @@
+/* YourComponent.css */
+
+.background {
+    /* background-image: url(''); /* Remplacez 'url_de_votre_image' par le chemin de votre image */
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   .container {
+     padding: 20px;
+     background-color: rgba(255, 255, 255, 0.8); /* Vous pouvez ajuster l'opacité en changeant la valeur alpha */
+   }

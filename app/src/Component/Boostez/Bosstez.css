@@ -1,0 +1,142 @@
+/* Styles de base pour les écrans de petite taille */
+.phrases-grid {
+    /* display: flex;  changement importante pour l'affichage sur Smartphone*/ 
+     justify-content: center;
+     align-items: center;
+     min-height: 0vh;
+     flex-direction: column;
+   
+   }
+   
+   .phrase-list {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+   }
+   
+   .phrase-item {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 10px;
+     text-align: center;
+     width: 100%;
+     margin-top: 0;
+     margin-bottom: 0;
+   }
+   
+   .circle {
+     width: 40px;
+     height: 40px;
+     border: 2px solid green;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 10px;
+   }
+   
+   .check {
+     font-size: 24px;
+     color: green;
+     display: block;
+   }
+   
+   .bold {
+     font-weight: bold;
+     font-size: 18px;
+     margin: 0;
+   }
+   
+   .description {
+     font-size: 14px;
+     color: green;
+     margin: 0;
+   }
+   
+   /* Styles pour les écrans plus larges */
+   @media (min-width: 768px) {
+     .phrases-grid {
+       flex-direction: row;
+     }
+   
+     .phrase-list {
+       justify-content: space-around;
+     }
+   
+     .phrase-item {
+       width: calc(33.33% - 20px);
+     }
+   }
+   
+   /* Styles de base pour la section .portfolio */
+   .portfolio {
+     /*display: flex;*/
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     height: 70vh;
+   }
+   
+   /* Styles for small screens (max-width: 767px) */
+   @media (max-width: 767px) {
+     .portfolio {
+       height: auto;
+       padding: 2rem;
+     }
+   
+     /* Increase font size for headings */
+     .portfolio h1 {
+       font-size: 2rem;
+     }
+   
+     .portfolio p {
+       font-size: 1rem;
+     }
+   
+     /* Adjust image size */
+     .portfolio img {
+       width: 80%; /* Adjust as needed */
+     }
+   
+     /* Modify the grid layout */
+     .phrases-grid {
+       flex-direction: column;
+       align-items: center;
+     }
+   
+     .phrase-list {
+       justify-content: center;
+     }
+   
+     .phrase-item {
+       width: 100%; /* Full width for items in the grid */
+     }
+   }
+   
+   /* Styles for larger screens (min-width: 768px) */
+   @media (min-width: 768px) {
+     /* Increase font size for headings */
+     .portfolio h1 {
+       font-size: 3rem;
+     }
+   
+     .portfolio p {
+       font-size: 1.25rem;
+     }
+   
+     /* Adjust the image size for larger screens */
+     .portfolio img {
+       width: 30%; /* Adjust as needed */
+     }
+   
+     /* Adjust the grid layout for larger screens */
+     .phrases-grid {
+       flex-direction: row;
+     }
+   
+     .phrase-item {
+       width: calc(33.33% - 20px);
+     }
+   }
+   

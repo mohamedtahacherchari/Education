@@ -1,0 +1,40 @@
+/* CSS code in Testimonial.css */
+
+/* Styles for .testimonial */
+.testimonial-content {
+    /* display: flex;*/
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     padding: 2rem;
+     background: rgba(255, 255, 255, 0.26);
+     border: 7px solid var(--blueCard);
+     box-shadow: var(--boxShadow);
+     border-radius: 20px;
+   }
+   
+   .profile-container {
+     display: flex;
+     justify-content: space-between; /* Ensure profiles are evenly spaced */
+   }
+   
+   .profile {
+     text-align: center;
+     width: 30%; /* Set a specific width for each profile */
+     max-width: 400px; /* Adjust the max-width as needed */
+     margin-top: 0; /* Remove top margin */
+   }
+   
+   .profile p {
+     margin-top: 10px; /* Add spacing between paragraphs */
+   }
+   
+   @media screen and (max-width: 768px) {
+     .testimonial-content  {
+       width: 100%; /* Make profiles stack vertically on small screens */
+     }
+   }
+   .testimonial-content {
+     margin-bottom: 0; /* Remove any bottom margin */
+   }
