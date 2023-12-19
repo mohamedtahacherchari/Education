@@ -1,8 +1,8 @@
-import React from 'react';
 import { createStore, applyMiddleware, compose } from 'redux';
 import rootReducer from './reducers/';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
+import PropTypes from 'prop-types';
 
 const composedEnhancer = window.__REDUX_DEVTOOLS_EXTENSION__
   ? compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__())
@@ -17,5 +17,7 @@ function DataProvider({ children }) {
     </Provider>
   );
 }
-
+DataProvider.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 export default DataProvider;

@@ -7,8 +7,6 @@ import PopularCourse from "../../Component/Course/PopularCourse";
 import Home3Funfact from "../../Component/FunFact/Home3Funfact";
 import Video from "../../Component/Video/Video";
 import Cta from "../../Component/Cta/Cta";
-import Home3Teacher from "../../Component/Teachers/Home3Teacher";
-import Package from "../../Component/Package/Package";
 import GotoTop from "../../Component/GotoTop";
 
 function About1() {

@@ -6,7 +6,7 @@ function Home3Funfact() {
           <div className="col-md-12">
             <h2 className="sec-title">Notre communauté mondiale</h2>
             <p className="sec-desc">
-            Rejoignez des milliers d'instructeurs et gagnez de l'argent sans tracas !
+              Rejoignez des milliers d'instructeurs et gagnez de l'argent sans tracas !
             </p>
           </div>
         </div>

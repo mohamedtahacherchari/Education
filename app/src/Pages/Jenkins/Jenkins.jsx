@@ -14,7 +14,7 @@ import GotoTop from "../../Component/GotoTop";
 
 function CourseSingle() {
   const [isLoading, setIsLoading] = useState(true);
-  const [activeView, setActiveView] = useState("Aperçu");
+  const [activeView, setActiveView] = useState("Aperçu");  
   const pagination = {
     clickable: true,
     renderBullet: function (index, className) {
@@ -140,64 +140,56 @@ fondamentaux et les subtilités de Jenkins, révolutionnant ainsi les pratiques
                                 <i className="icon_check_alt2"></i>
                                 Apprenez les dernières compétences
                                 <span>
-                                
-					
-								Dominez les aspects avancés de Jenkins, des concepts fondamentaux à l'automatisation avancée,
-								 afin d'optimiser le développement et la gestion de vos applications. 
-								 Explorez les pratiques collaboratives avec les fonctionnalités les plus récentes,
-								  propulsant ainsi votre expertise dans le domaine de l'intégration continue,
-								 du déploiement continu et de la gestion des environnements applicatifs.
-                                </span>
+  Dominez les aspects avancés de Jenkins, des concepts fondamentaux à l'automatisation avancée,
+  afin d'optimiser le développement et la gestion de vos applications. 
+  Explorez les pratiques collaboratives avec les fonctionnalités les plus récentes,
+  propulsant ainsi votre expertise dans le domaine de l'intégration continue,
+  du déploiement continu et de la gestion des environnements applicatifs.
+</span>
                               </li>
                               <li>
-                                <i className="icon_check_alt2"></i>
-                                Obtenez un certificat ou un diplôme
-                                <span>
-								Obtenez une certification officielle en maîtrisant Jenkins, 
-								renforçant ainsi vos compétences en automatisation, intégration continue et déploiement continu. 
-								Recevez un diplôme attestant de votre expertise dans l'utilisation avancée de Jenkins, 
-								ouvrant la voie à une carrière florissante dans le domaine de l'intégration continue,
-								 du déploiement logiciel et de la gestion d'environnements applicatifs.            
-                                </span>
-                              </li>
-                              <li>
-                                <i className="icon_check_alt2"></i>
-                                Préparez-vous pour une carrière
-                                <span>
-								Préparez-vous de manière exhaustive pour une carrière réussie en apprenant Jenkins,
-								 l'outil incontournable pour l'automatisation, l'intégration continue et le déploiement continu. 
-								 Acquérez les compétences essentielles de configuration et de gestion des pipelines d'intégration
-								  continue pour exceller dans le domaine et propulser votre parcours professionnel vers de nouveaux sommets.
-                                </span>
-                              </li>
+  <i className="icon_check_alt2"></i>
+  Obtenez un certificat ou un diplôme
+  <span>
+    Obtenez une certification officielle en maîtrisant Jenkins, 
+    renforçant ainsi vos compétences en automatisation, intégration continue et déploiement continu. 
+    Recevez un diplôme attestant de votre expertise dans l'utilisation avancée de Jenkins, 
+    ouvrant la voie à une carrière florissante dans le domaine de l'intégration continue,
+    du déploiement logiciel et de la gestion d'environnements applicatifs.            
+  </span>
+</li>
+<li>
+  <i className="icon_check_alt2"></i>
+  Préparez-vous pour une carrière
+  <span>
+    Préparez-vous de manière exhaustive pour une carrière réussie en apprenant Jenkins,
+    l'outil incontournable pour l'automatisation, l'intégration continue et le déploiement continu. 
+    Acquérez les compétences essentielles de configuration et de gestion des pipelines d'intégration
+    continue pour exceller dans le domaine et propulser votre parcours professionnel vers de nouveaux sommets.
+  </span>
+</li>
                             </ul>
                           </div>
                         </div>
                       )}
                       {/* Overview Tab  */}
                       {/* Curriculum Tab  */}
-
-					
-                      {activeView === "Programme d'études" && (
-
-						
-                        <div
+ {activeView === "Programme d'études" && (<div
                           className="tab-pane fade in show active"
                           id="curriculum"
                           role="tabpanel"
                         >
-							 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Objectifs pédagogiques</h5> 
-• Savoir installer et configurer un seveur Jenkins.<br/>
-• Définir des pipelines d’intégration ou de déploiement continue via<br/>
-l’interface Jenkins<br/>
-• Définir des pipelines d’intégration ou de déploiement continue via<br/>
-des scripts Pipelines<br/>
+<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Objectifs pédagogiques</h5>
+• Savoir installer et configurer un serveur Jenkins.<br/>
+• Définir des pipelines d’intégration ou de déploiement continue via l’interface Jenkins<br/>
+• Définir des pipelines d’intégration ou de déploiement continue via des scripts Pipelines<br/>
 
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Public:</h5>
 Développeurs, chefs de projet, administrateurs systèmes, architectes.<br/>
 
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Niveau requis:</h5>
-Connaissance des notions 
+Connaissance des notions<br/>
+
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programme :</h5>
                           <div className="curriculum-item" id="id_1">
                             <div className="card-header" id="cc_1">
@@ -253,23 +245,23 @@ Connaissance des notions
                             </div>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Travaux pratiques :
 							<div className="ci-item">
-                                  <h5>
-                                    <i className="icon_menu-square_alt2"></i>
-                                    <Link href="#">
-									Installation de Jenkins
-                                    </Link>
-                                  </h5>
-                                  <div className="ci-tools">
-                                    <Link href="#" className="time">
-                                    Jour 1
-                                    </Link>
-                                    <Link href="#" className="lock">
-                                      <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					    </div>
-                          </div>
+  <h5>
+    <i className="icon_menu-square_alt2"></i>
+    <Link href="#">
+      Installation de Jenkins
+    </Link>
+  </h5>
+  <div className="ci-tools">
+    <Link href="#" className="time">
+      Jour 1
+    </Link>
+    <Link href="#" className="lock">
+      <i className="icon_lock_alt"></i>
+    </Link>
+  </div>
+</div>
+ </div>
+  </div>
                           <div className="curriculum-item" id="id_2">
                             <div className="card-header" id="cc_2">
                               <h5 className="mb-0">
@@ -513,13 +505,7 @@ Connaissance des notions
                                     </Link>
                                     <Link href="#" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>                                 
-					                    </div>
-							  
-                            </div>
-                          </div>
+                                    </Link></div></div></div></div></div>
                           <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
@@ -605,12 +591,7 @@ par labels
                                     <Link href="#" className="lock">
                                       <i className="icon_lock_alt"></i>
                                     </Link>
-                                  </div>
-                                </div> 
-					                    </div>
-							  
-                            </div>
-                          </div>
+                                  </div></div></div></div></div>
                           <h5>Cette formation sur un jour va associer la théorie et la pratique</h5>
                           <h5>Les phases pratiques sont des exercices ou des TPs pour arriver à des applications concrètes.</h5>
                         </div>
@@ -987,14 +968,13 @@ par labels
                           <span>Instructeur: </span> Justin Case
                         </li>
                         <li>
-                          <i className="icon_document_alt"></i>
-                          <span>Conférences : </span> 14
-                        </li>
-                        <li>
-                          <i className="icon_clock_alt"></i>
-                          <span>Durée: </span> 
-						  2 Jours(14 heurs)
-                        </li>
+  <i className="icon_document_alt"></i>
+  <span>Conférences : </span> 14
+</li>
+<li>
+  <i className="icon_clock_alt"></i>
+  <span>Durée : </span> 2 Jours (14 heures)
+</li>
                         <li>
                           <i className="icon_profile"></i>
                           <span>Inscrit: </span> 75 étudiants

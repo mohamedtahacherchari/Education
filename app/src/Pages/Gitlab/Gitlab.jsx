@@ -12,7 +12,7 @@ import LatestCourseCard from "../../Component/Cards/LatestCourseCard";
 import ReviewForm from "../../Component/Form/ReviewForm";
 import GotoTop from "../../Component/GotoTop";
 
-function CourseSingle() {
+function CourseSingle() {  
   const [isLoading, setIsLoading] = useState(true);
   const [activeView, setActiveView] = useState("Aperçu");
   const pagination = {
@@ -1098,9 +1098,9 @@ Obtenez une certification reconnue en maîtrisant GitLab, consolidant ainsi vos 
                           <span>Instructeur: </span> Justin Case
                         </li>
                         <li>
-                          <i className="icon_document_alt"></i>
-                          <span>Conférences : </span> 14
-                        </li>
+  <i className="icon_document_alt"></i>
+  <span>Conférences : </span>14
+</li>
                         <li>
                           <i className="icon_clock_alt"></i>
                           <span>Durée: </span>3 jours(21 heures)

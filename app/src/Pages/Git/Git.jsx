@@ -14,7 +14,7 @@ import GotoTop from "../../Component/GotoTop";
 
 function CourseSingle() {
   const [isLoading, setIsLoading] = useState(true);
-  const [activeView, setActiveView] = useState("Aperçu");
+  const [activeView, setActiveView] = useState("Aperçu");  
   const pagination = {
     clickable: true,
     renderBullet: function (index, className) {
@@ -896,9 +896,9 @@ function CourseSingle() {
                           <span>Instructeur: </span> Justin Case
                         </li>
                         <li>
-                          <i className="icon_document_alt"></i>
-                          <span>Conférences : </span> 14
-                        </li>
+  <i className="icon_document_alt"></i>
+  <span>Conférences : </span>14
+</li>
                         <li>
                           <i className="icon_clock_alt"></i>
                           <span>Durée: </span> 1 Jour(7 heurs)

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Preloader from "../../Component/Preloader";
 import Header from "../../Component/Headers";
 import Footer from "../../Component/Footer/Footer";
-import Banner from "../../Component/Banner/Banner";
+import Banner from "../../Component/Banner/Banner";   
 import { course } from "../../Data/course";
 import FeatureCourseCard from "../../Component/Cards/FeatureCourseCard";
 import { Link } from "react-router-dom";
@@ -123,32 +123,24 @@ function CourseSingle() {
                           role="tabpanel"
                         >
                           <div className="overview-content">
-                            <h4>Description du cours</h4>
-                            <p>
-
-							Plongez dans l'univers de Kubernetes, l'outil DevOps incontournable. Notre formation 
-							intensive vous guidera à travers les fondamentaux et les subtilités de Kubernetes,
-							 révolutionnant ainsi la gestion des conteneurs et l'orchestration d'applications.
-							 Explorez les avantages de l'isolation, de la portabilité et de la scalabilité offerts 
-							 par Kubernetes. Soyez prêt à maîtriser cet outil 
-							puissant et à libérer tout son potentiel pour vos déploiements d'applications modernes.
-                            </p>
+                
+<h4>Description du cours</h4>
+<p>Plongez dans l'univers de Kubernetes, l'outil DevOps incontournable. Notre formation intensive vous guidera à travers les fondamentaux et les subtilités de Kubernetes, révolutionnant ainsi la gestion des conteneurs et l'orchestration d'applications. Explorez les avantages de l'isolation, de la portabilité et de la scalabilité offerts par Kubernetes. Soyez prêt à maîtriser cet outil puissant et à libérer tout son potentiel pour vos déploiements d'applications modernes.</p>
                             <p>
                               
                             </p>
                             <h4>Description du cours</h4>
                             <ul>
-                              <li>
-                                <i className="icon_check_alt2"></i>
-                                Apprenez les dernières compétences
-                                <span>
-                                
-								Dominez les aspects avancés de Kubernetes, des conteneurs aux orchestrations,
-								 afin d'optimiser le déploiement et la gestion de vos applications. Explorez les
-								  pratiques collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi votre
-								 expertise dans le domaine du déploiement et de la gestion d'environnements logiciels.
-                                </span>
-                              </li>
+                            <li>
+    <i className="icon_check_alt2"></i>
+    Apprenez les dernières compétences
+    <span>
+        Dominez les aspects avancés de Kubernetes, des conteneurs aux orchestrations,
+        afin d'optimiser le déploiement et la gestion de vos applications. Explorez les
+        pratiques collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi votre
+        expertise dans le domaine du déploiement et de la gestion d'environnements logiciels.
+    </span>
+</li>
                               <li>
                                 <i className="icon_check_alt2"></i>
                                 Obtenez un certificat ou un diplôme
@@ -162,15 +154,15 @@ le domaine du déploiement logiciel et de la gestion d'environnements virtualis�
                                 </span>
                               </li>
                               <li>
-                                <i className="icon_check_alt2"></i>
-                                Préparez-vous pour une carrière
-                                <span>
-								Préparez-vous de manière exhaustive pour une carrière réussie en apprenant Kubernetes, 
-								l'outil incontournable de l'orchestration d'applications conteneurisées. Acquérez les
-								 compétences essentielles de déploiement et de gestion d'environnements virtualisés pour 
-								exceller dans le domaine et propulser votre parcours professionnel vers de nouveaux sommets.
-                                </span>
-                              </li>
+    <i className="icon_check_alt2"></i>
+    Préparez-vous pour une carrière
+    <span>
+        Préparez-vous de manière exhaustive pour une carrière réussie en apprenant Kubernetes,
+        l'outil incontournable de l'orchestration d'applications conteneurisées. Acquérez les
+        compétences essentielles de déploiement et de gestion d'environnements virtualisés pour
+        exceller dans le domaine et propulser votre parcours professionnel vers de nouveaux sommets.
+    </span>
+</li>
                             </ul>
                           </div>
                         </div>
@@ -237,12 +229,12 @@ administrateurs.
                                   </div>
                                 </div>
                                 <div className="ci-item">
-                                  <h5>
-                                    <i className="icon_menu-square_alt2"></i>
-                                    <Link to="/">
-									                  Pourquoi les Cloud
-                                    </Link>
-                                  </h5>
+                                <h5>
+    <i className="icon_menu-square_alt2"></i>
+    <Link to="/">
+        Pourquoi les Cloud
+    </Link>
+</h5>
                                   <div className="ci-tools">
                                     <Link to="/" className="time">
                                       Jour 1
@@ -659,13 +651,7 @@ administrateurs.
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					                    </div>
-							  
-                            </div>
-                          </div>
+                                    </Link></div></div></div></div></div>
                           <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
@@ -858,13 +844,7 @@ administrateurs.
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					                    </div>
-							  
-                            </div>
-                          </div>
+                                    </Link></div></div></div></div></div>
                           <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
@@ -1057,15 +1037,8 @@ administrateurs.
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					                    </div>
-							  
-                            </div>
-                          </div>
-
-                          <div className="curriculum-item" id="id_3">
+                                    </Link></div></div></div></div></div>
+                         <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
                                 <button
@@ -1201,15 +1174,8 @@ administrateurs.
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					                    </div>
-							  
-                            </div>
-                          </div>
-
-                          <div className="curriculum-item" id="id_3">
+                                    </Link></div></div></div></div></div>
+                       <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
                                 <button
@@ -1312,14 +1278,7 @@ administrateurs.
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					                    </div>
-							  
-                            </div>
-                          </div>
-
+                                    </Link></div></div></div></div></div>
                           <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
@@ -1458,15 +1417,8 @@ administrateurs.
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					                    </div>
-							  
-                            </div>
-                          </div>
-
-                          <div className="curriculum-item" id="id_3">
+                                    </Link></div></div></div></div></div>
+                         <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
                                 <button
@@ -1550,13 +1502,7 @@ administrateurs.
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					                    </div>
-							  
-                            </div>
-                          </div>
+                                    </Link></div></div></div></div></div>
                           <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
@@ -1590,13 +1536,7 @@ Kubernetes.</Link>
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					                    </div>
-							  
-                            </div>
-                          </div>
+                                    </Link></div></div></div></div></div>
                           <h5>Cette formation sur un jour va associer la théorie et la pratique</h5>
                           <h5>Les phases pratiques sont des exercices ou des TPs pour arriver à des applications concrètes.</h5>
                         </div>
@@ -1973,9 +1913,9 @@ Kubernetes.</Link>
                           <span>Instructeur: </span> Justin Case
                         </li>
                         <li>
-                          <i className="icon_document_alt"></i>
-                          <span>Conférences : </span> 14
-                        </li>
+    <i className="icon_document_alt"></i>
+    <span>Conférences : </span> 14
+</li>
                         <li>
                           <i className="icon_clock_alt"></i>
                           <span>Durée: </span> 3 Jours(21 heurs)

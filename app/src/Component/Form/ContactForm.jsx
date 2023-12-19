@@ -119,7 +119,7 @@ function ContactForm({name ,setName, setNom, nom , sujet,
         <input type="submit" name="submit" value="Envoyer le message" />
       </div>
       
-      {done && <p>Thanks for Contacting me</p>}
+      {done && <p>Merci de nous avoir contacté</p>}
     </form>
   );
 }

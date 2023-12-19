@@ -1,7 +1,6 @@
-import ProtoTypes from "prop-types";
-import CourseItemCard from "../Cards/CourseItemCard";
 
-function Works({ course, heading }) {
+
+function Works() {
   return (
     <section className="popular-course-section">
       <div className="container">
@@ -56,9 +55,5 @@ function Works({ course, heading }) {
   );
 }
 
-Works.propTypes = {
-  course: ProtoTypes.bool,
-  heading: ProtoTypes.bool,
-};
 
 export default Works;

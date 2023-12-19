@@ -124,12 +124,12 @@ function CourseSingle() {
                           <div className="overview-content">
                             <h4>Description du cours</h4>
                             <p>
-							  Plongez dans l'univers d'Ansible, l'outil incontournable du DevOps.
-							  Notre formation intensive vous guidera à travers les fondamentaux et les subtilités d'Ansible,
-							  un outil de gestion de configuration permettant d'automatiser des tâches avec des scripts 
-							  d'automatisation. Soyez prêt à maîtriser cet outil
-							  puissant et à libérer tout son potentiel pour vos déploiements d'applications modernes.
-                            </p>
+    Plongez dans l'univers d'Ansible, l'outil incontournable du DevOps.
+    Notre formation intensive vous guidera à travers les fondamentaux et les subtilités d'Ansible,
+    un outil de gestion de configuration permettant d'automatiser des tâches avec des scripts 
+    d'automatisation. Soyez prêt à maîtriser cet outil
+    puissant et à libérer tout son potentiel pour vos déploiements d'applications modernes.
+</p>
                             <p>
                               
                             </p>
@@ -138,32 +138,30 @@ function CourseSingle() {
                               <li>
                                 <i className="icon_check_alt2"></i>
                                 Apprenez les dernières compétences
-                                <span>
-								Explorez les mécanismes avancés d'Ansible, depuis les configurations jusqu'aux déploiements,
-								 afin d'optimiser la gestion des opérations de vos projets. Immergez-vous dans les méthodes 
-								 collaboratives en exploitant les fonctionnalités les plus récentes,
-								 propulsant ainsi votre expertise en automatisation des opérations.
-                                </span>
+   <span>Explorez les mécanismes avancés d'Ansible, depuis les configurations jusqu'aux déploiements,
+    afin d'optimiser la gestion des opérations de vos projets. Immergez-vous dans les méthodes collaboratives en exploitant les fonctionnalités les plus récentes,
+    propulsant ainsi votre expertise en automatisation des opérations.
+</span>
                               </li>
                               <li>
                                 <i className="icon_check_alt2"></i>
                                 Obtenez un certificat ou un diplôme
                                 <span>
-								Obtenez une certification reconnue en maîtrisant Ansible, 
-								renforçant ainsi vos compétences en automatisation des opérations. 
-								Recevez un diplôme attestant de votre expertise dans l'utilisation avancée d'Ansible,
-								 propulsant ainsi votre carrière florissante en développement logiciel.
-                                </span>
+    Obtenez une certification reconnue en maîtrisant Ansible, 
+    renforçant ainsi vos compétences en automatisation des opérations. 
+    Recevez un diplôme attestant de votre expertise dans l'utilisation avancée d'Ansible,
+    propulsant ainsi votre carrière florissante en développement logiciel.
+</span>
                               </li>
                               <li>
                                 <i className="icon_check_alt2"></i>
                                 Préparez-vous pour une carrière
                                 <span>
-								Préparez-vous de manière exhaustive pour une carrière réussie en apprenant Ansible, 
-								l'outil incontournable de l'automatisation des opérations. Acquérez les compétences 
-								essentielles de gestion des configurations pour exceller dans le domaine et propulser votre 
-								parcours professionnel vers de nouveaux sommets.
-                                </span>
+    Préparez-vous de manière exhaustive pour une carrière réussie en apprenant Ansible, 
+    l'outil incontournable de l'automatisation des opérations. Acquérez les compétences 
+    essentielles de gestion des configurations pour exceller dans le domaine et propulser votre 
+    parcours professionnel vers de nouveaux sommets.
+</span>
                               </li>
                             </ul>
                           </div>
@@ -1681,9 +1679,9 @@ Fichier inventaire et commande ad-hoc
                           <span>Instructeur: </span> Justin Case
                         </li>
                         <li>
-                          <i className="icon_document_alt"></i>
-                          <span>Conférences : </span> 14
-                        </li>
+                         <i className="icon_document_alt"></i>
+                          <span>Conférences : </span> 14
+                          </li>
                         <li>
                           <i className="icon_clock_alt"></i>
                           <span>Durée: </span> 1 Jour(7 heurs)

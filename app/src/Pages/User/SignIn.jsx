@@ -223,5 +223,5 @@ export default function SignIn() {
 		</ThemeProvider>
 		<Routes>
         <Route path="/:activation_token" element={<EmailActivation/>} />
-		</Routes>
-	    </div>);}
+		</Routes></div>
+		);}  

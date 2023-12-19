@@ -158,10 +158,10 @@ Dominez les aspects avancés de Docker, des conteneurs aux orchestrations,
                                 <i className="icon_check_alt2"></i>
                                 Préparez-vous pour une carrière
                                 <span>
-								Préparez-vous de manière exhaustive pour une carrière réussie en apprenant Docker,
-								 l'outil incontournable du déploiement d'applications conteneurisées. Acquérez les compétences essentielles de déploiement et de gestion d'environnements virtualisés pour exceller dans le domaine et 
-								propulser votre parcours professionnel vers de nouveaux sommets.
-                                </span>
+    Préparez-vous de manière exhaustive pour une carrière réussie en apprenant Docker,
+    l'outil incontournable du déploiement d'applications conteneurisées. Acquérez les compétences essentielles de déploiement et de gestion d'environnements virtualisés pour exceller dans le domaine et 
+    propulser votre parcours professionnel vers de nouveaux sommets.
+</span>
                               </li>
                             </ul>
                           </div>
@@ -483,21 +483,10 @@ Dominez les aspects avancés de Docker, des conteneurs aux orchestrations,
                                 </div>
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Docker Swarm
 							<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kubernetes
-							<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Docker, DevOps & Cloud
-
-
-                               
-                              </div>
-							  
-                            </div>
-                          </div>
-                         
-                          <h5>Cette formation sur un jour va associer la théorie et la pratique</h5>
-                          <h5>Les phases pratiques sont des exercices ou des TPs pour arriver à des applications concrètes.</h5>
-                        </div>
-                      )}
-                      {/* Curriculum Tab  */}
-                      {/* Instructors Tab  */}
+							<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Docker, DevOps & Cloud</div></div></div>
+                 <h5>Cette formation sur un jour va associer la théorie et la pratique</h5>
+<h5>Les phases pratiques sont des exercices ou des TPs pour arriver à des applications concrètes.</h5>
+</div>)}
                       {activeView === "Instructeurs" && (
                         <div
                           className="tab-pane fade in show active"
@@ -599,8 +588,6 @@ Dominez les aspects avancés de Docker, des conteneurs aux orchestrations,
                           </div>
                         </div>
                       )}
-                      {/* Instructors Tab  */}
-                      {/* Reviews Tab  */}
                       {activeView === "Commentaires" && (
                         <div
                           className="tab-pane fade in show active"
@@ -802,24 +789,10 @@ Dominez les aspects avancés de Docker, des conteneurs aux orchestrations,
                           </div>
                         </div>
                       )}
-                      {/*  Reviews Tab  */}
+                   
                     </div>
-                    {/* Tab Content  */}
+                
                   </div>
-                  {/* share link start  */}
-                {/*  <div className="post-share">
-                    <h5>Share:</h5>
-                    <a className="fac" href="#">
-                      <i className="social_facebook"></i>
-                    </a>
-                    <a className="twi" href="#">
-                      <i className="social_twitter"></i>
-                    </a>
-                    <a className="goo" href="#">
-                      <i className="social_googleplus"></i>
-                    </a>
-                      </div>*/}
-                  {/* share link end  */}
                   <div className="related-course">
                     <h3>Cours connexes</h3>
                     <Swiper
@@ -868,9 +841,9 @@ Dominez les aspects avancés de Docker, des conteneurs aux orchestrations,
                           <span>Instructeur: </span> Justin Case
                         </li>
                         <li>
-                          <i className="icon_document_alt"></i>
-                          <span>Conférences : </span> 14
-                        </li>
+  <i className="icon_document_alt"></i>
+  <span>Conférences : </span>14
+</li>
                         <li>
                           <i className="icon_clock_alt"></i>
                           <span>Durée: </span> 3 Jours(21 heurs)

@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import LatestCourseCard from "../../Component/Cards/LatestCourseCard";
 import ReviewForm from "../../Component/Form/ReviewForm";
-import GotoTop from "../../Component/GotoTop";
+import GotoTop from "../../Component/GotoTop";   
 
 function CourseSingle() {
   const [isLoading, setIsLoading] = useState(true);
@@ -121,15 +121,10 @@ function CourseSingle() {
                           role="tabpanel"
                         >
                           <div className="overview-content">
-                            <h4>Description du cours</h4>
-                            <p>
-							Plongez dans l'univers de Python, le langage incontournable pour le développement.
-							 Notre formation intensive vous guidera à travers les fondamentaux et les subtilités
-							  de Python, révolutionnant ainsi la programmation et le développement d'applications.
-							   Explorez les avantages de la lisibilité du code, de la portabilité et de la flexibilité offerts par Python. Soyez prêt à maîtriser ce langage puissant et 
-							à libérer tout son potentiel pour vos projets de développement logiciel modernes.
-			
-                            </p>
+                          <h4>Description du cours</h4>
+<p>
+    Plongez dans l'univers de Python, le langage incontournable pour le développement. Notre formation intensive vous guidera à travers les fondamentaux et les subtilités de Python, révolutionnant ainsi la programmation et le développement d'applications. Explorez les avantages de la lisibilité du code, de la portabilité et de la flexibilité offerts par Python. Soyez prêt à maîtriser ce langage puissant et à libérer tout son potentiel pour vos projets de développement logiciel modernes.
+</p>
                             <p>
                               
                             </p>
@@ -148,26 +143,26 @@ collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi vo
                                 </span>
                               </li>
                               <li>
-                                <i className="icon_check_alt2"></i>
-                                Obtenez un certificat ou un diplôme
-                                <span>
-								Obtenez une certification officielle en maîtrisant Python, 
-								renforçant ainsi vos compétences en développement et gestion d'applications logicielles. 
-								Recevez un diplôme attestant de votre expertise dans l'utilisation avancée de Python,
-								 ouvrant la voie à une carrière florissante
-								 dans le domaine du développement logiciel et de la gestion d'environnements applicatifs.             
-                                </span>
-                              </li>
-                              <li>
-                                <i className="icon_check_alt2"></i>
-                                Préparez-vous pour une carrière
-                                <span>
-								Préparez-vous de manière exhaustive pour une carrière réussie en apprenant Python,
-								 le langage incontournable du développement logiciel. Acquérez les compétences
-								  essentielles de programmation et de gestion d'applications pour exceller dans le domaine 
-								et propulser votre parcours professionnel vers de nouveaux sommets.
-                                </span>
-                              </li>
+    <i className="icon_check_alt2"></i>
+    Obtenez un certificat ou un diplôme
+    <span>
+        Obtenez une certification officielle en maîtrisant Python,
+        renforçant ainsi vos compétences en développement et gestion d'applications logicielles.
+        Recevez un diplôme attestant de votre expertise dans l'utilisation avancée de Python,
+        ouvrant la voie à une carrière florissante dans le domaine du développement logiciel
+        et de la gestion d'environnements applicatifs.
+    </span>
+</li>
+<li>
+    <i className="icon_check_alt2"></i>
+    Préparez-vous pour une carrière
+    <span>
+        Préparez-vous de manière exhaustive pour une carrière réussie en apprenant Python,
+        le langage incontournable du développement logiciel. Acquérez les compétences
+        essentielles de programmation et de gestion d'applications pour exceller dans le domaine
+        et propulser votre parcours professionnel vers de nouveaux sommets.
+    </span>
+</li>
                             </ul>
                           </div>
                         </div>
@@ -326,61 +321,51 @@ collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi vo
                               data-parent="#id_3"
                             >
                               <div className="card-body">
-                                <div className="ci-item with-bg">
-                                  <h5>
-                                    <i className="icon_menu-square_alt2"></i>
-                                    <Link to="/"> Création d’un objet</Link>
-                                  </h5>
-                                  <div className="ci-tools">
-                                    <Link to="/" className="time">
-                                    Jour 1
-                                    </Link>
-                                    <Link to="/" className="lock">
-                                      <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-            <div className="ci-item">
-                                  <h5>
-                                    <i className="icon_menu-square_alt2"></i>
-                                    <Link to="/">
-                                    Les méthodes
-                                    </Link>
-                                  </h5>
-                                  <div className="ci-tools">
-                                    <Link to="/" className="time">
-                                    Jour 1
-                                    </Link>
-                                    <Link to="/" className="lock">
-                                      <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                </div>
-						<div className="ci-item with-bg">
-                                  <h5>
-                                    <i className="icon_menu-square_alt2"></i>
-                                    <Link to="/">Les Design patterns</Link>
-                                  </h5>
-                                  <div className="ci-tools">
-                                    <Link to="/" className="questions">
-                                      4 questions
-                                    </Link>
-                                    <Link to="/" className="time">
-                                    Jour 1
-                                    </Link>
-                                    <Link to="/" className="lock">
-                                      <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
+    <div className="ci-item with-bg">
+        <h5>
+            <i className="icon_menu-square_alt2"></i>
+            <Link to="/"> Création d’un objet</Link>
+        </h5>
+        <div className="ci-tools">
+            <Link to="/" className="time">
+                Jour 1
+            </Link>
+            <Link to="/" className="lock">
+                <i className="icon_lock_alt"></i>
+            </Link>
+        </div>
+    </div>
 
+    <div className="ci-item">
+        <h5>
+            <i className="icon_menu-square_alt2"></i>
+            <Link to="/">Les méthodes</Link>
+        </h5>
+        <div className="ci-tools">
+            <Link to="/" className="time">
+                Jour 1
+            </Link>
+            <Link to="/" className="lock">
+                <i className="icon_lock_alt"></i>
+            </Link>
+        </div>
+    </div>
 
-                                
-                                
-					                    </div>
-							  
-                            </div>
-                          </div>
+    <div className="ci-item with-bg">
+        <h5>
+            <i className="icon_menu-square_alt2"></i>
+            <Link to="/">Les Design patterns</Link>
+        </h5>
+        <div className="ci-tools">
+            <Link to="/" className="questions">
+                4 questions
+            </Link>
+            <Link to="/" className="time">
+                Jour 1
+            </Link>
+            <Link to="/" className="lock">
+                <i className="icon_lock_alt"></i>
+            </Link></div></div></div></div></div>
                           <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
@@ -446,13 +431,7 @@ collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi vo
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					                    </div>
-							  
-                            </div>
-                          </div>
+                                    </Link></div></div></div></div></div>
                           <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
@@ -462,13 +441,7 @@ collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi vo
                                   data-target="#acc_3"
                                   aria-expanded="true"
                                   aria-controls="acc_3"
-                                >
-                   Faire son module 
-				  
-                                </button>
-								
-                              </h5>
-                            </div>
+                                >Faire son module </button></h5></div>
                             <div
                               id="acc_3"
                               className="collapse show"
@@ -488,16 +461,154 @@ collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi vo
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-          
-					
-					                    </div>
-							  
-                            </div>
-                          </div>
-						  <div className="curriculum-item" id="id_3">
+                                    </Link></div></div></div></div></div>
+                                    <div className="curriculum-item" id="id_3">
+    <div className="card-header" id="cc_3">
+        <h5 className="mb-0">
+            <button
+                className="btn btn-link"
+                data-toggle="collapse"
+                data-target="#acc_3"
+                aria-expanded="true"
+                aria-controls="acc_3"
+            >
+                Les expressions régulières
+            </button>
+        </h5>
+    </div>
+    <div
+        id="acc_3"
+        className="collapse show"
+        aria-labelledby="cc_3"
+        data-parent="#id_3"
+    >
+        <div className="card-body">
+            <div className="ci-item with-bg">
+                <h5>
+                    <i className="icon_menu-square_alt2"></i>
+                    <Link to="/"> Les expressions régulières </Link>
+                </h5>
+                <div className="ci-tools">
+                    <Link to="/" className="time">
+                        Jour 2
+                    </Link>
+                    <Link to="/" className="lock">
+                        <i className="icon_lock_alt"></i>
+                    </Link>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div className="curriculum-item" id="id_3">
+    <div className="card-header" id="cc_3">
+        <h5 className="mb-0">
+            <button
+                className="btn btn-link"
+                data-toggle="collapse"
+                data-target="#acc_3"
+                aria-expanded="true"
+                aria-controls="acc_3"
+            >
+                Interaction avec des fichiers
+            </button>
+        </h5>
+    </div>
+    <div
+        id="acc_3"
+        className="collapse show"
+        aria-labelledby="cc_3"
+        data-parent="#id_3"
+    >
+        <div className="card-body">
+            <div className="ci-item with-bg">
+                <h5>
+                    <i className="icon_menu-square_alt2"></i>
+                    <Link to="/">csv</Link>
+                </h5>
+                <div className="ci-tools">
+                    <Link to="/" className="time">
+                        Jour 2
+                    </Link>
+                    <Link to="/" className="lock">
+                        <i className="icon_lock_alt"></i>
+                    </Link>
+                </div>
+            </div>
+        </div>
+        <div className="card-body">
+            <div className="ci-item with-bg">
+                <h5>
+                    <i className="icon_menu-square_alt2"></i>
+                    <Link to="/">json</Link>
+                </h5>
+                <div className="ci-tools">
+                    <Link to="/" className="time">
+                        Jour 2
+                    </Link>
+                    <Link to="/" className="lock">
+                        <i className="icon_lock_alt"></i>
+                    </Link>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div className="curriculum-item" id="id_3">
+    <div className="card-header" id="cc_3">
+        <h5 className="mb-0">
+            <button
+                className="btn btn-link"
+                data-toggle="collapse"
+                data-target="#acc_3"
+                aria-expanded="true"
+                aria-controls="acc_3"
+            >
+                Interaction avec des bases de données
+            </button>
+        </h5>
+    </div>
+    <div
+        id="acc_3"
+        className="collapse show"
+        aria-labelledby="cc_3"
+        data-parent="#id_3"
+    >
+        <div className="card-body">
+            <div className="ci-item with-bg">
+                <h5>
+                    <i className="icon_menu-square_alt2"></i>
+                    <Link to="/">Sqlite</Link>
+                </h5>
+                <div className="ci-tools">
+                    <Link to="/" className="time">
+                        Jour 2
+                    </Link>
+                    <Link to="/" className="lock">
+                        <i className="icon_lock_alt"></i>
+                    </Link>
+                </div>
+            </div>
+        </div>
+        <div className="card-body">
+            <div className="ci-item with-bg">
+                <h5>
+                    <i className="icon_menu-square_alt2"></i>
+                    <Link to="/">Mysql</Link>
+                </h5>
+                <div className="ci-tools">
+                    <Link to="/" className="time">
+                        Jour 2
+                    </Link>
+                    <Link to="/" className="lock">
+                        <i className="icon_lock_alt"></i>
+                    </Link>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
                                 <button
@@ -506,181 +617,7 @@ collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi vo
                                   data-target="#acc_3"
                                   aria-expanded="true"
                                   aria-controls="acc_3"
-                                >
-                   Les expressions régulières 
-				  
-                                </button>
-								
-                              </h5>
-                            </div>
-                            <div
-                              id="acc_3"
-                              className="collapse show"
-                              aria-labelledby="cc_3"
-                              data-parent="#id_3"
-                            >
-                              <div className="card-body">
-                                <div className="ci-item with-bg">
-                                  <h5>
-                                    <i className="icon_menu-square_alt2"></i>
-                                    <Link to="/">         Les expressions régulières  
-</Link>
-                                  </h5>
-                                  <div className="ci-tools">
-                                    <Link to="/" className="time">
-                                    Jour 2
-                                    </Link>
-                                    <Link to="/" className="lock">
-                                      <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-          
-					
-					                    </div>
-							  
-                            </div>
-                          </div>
-						  <div className="curriculum-item" id="id_3">
-                            <div className="card-header" id="cc_3">
-                              <h5 className="mb-0">
-                                <button
-                                  className="btn btn-link"
-                                  data-toggle="collapse"
-                                  data-target="#acc_3"
-                                  aria-expanded="true"
-                                  aria-controls="acc_3"
-                                >
-                   Interaction avec des fichiers
-				  
-                                </button>
-								
-                              </h5>
-                            </div>
-                            <div
-                              id="acc_3"
-                              className="collapse show"
-                              aria-labelledby="cc_3"
-                              data-parent="#id_3"
-                            >
-                              <div className="card-body">
-                                <div className="ci-item with-bg">
-                                  <h5>
-                                    <i className="icon_menu-square_alt2"></i>
-                                    <Link to="/">        csv
-</Link>
-                                  </h5>
-                                  <div className="ci-tools">
-                                    <Link to="/" className="time">
-                                    Jour 2
-                                    </Link>
-                                    <Link to="/" className="lock">
-                                      <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-          
-					
-					                    </div>
-										<div className="card-body">
-                                <div className="ci-item with-bg">
-                                  <h5>
-                                    <i className="icon_menu-square_alt2"></i>
-                                    <Link to="/">      json
-</Link>
-                                  </h5>
-                                  <div className="ci-tools">
-                                    <Link to="/" className="time">
-                                    Jour 2
-                                    </Link>
-                                    <Link to="/" className="lock">
-                                      <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-          
-					
-					                    </div>
-                            </div>
-                          </div>
-						  <div className="curriculum-item" id="id_3">
-                            <div className="card-header" id="cc_3">
-                              <h5 className="mb-0">
-                                <button
-                                  className="btn btn-link"
-                                  data-toggle="collapse"
-                                  data-target="#acc_3"
-                                  aria-expanded="true"
-                                  aria-controls="acc_3"
-                                >
-            Interaction avec des bases de données
-				  
-                                </button>
-								
-                              </h5>
-                            </div>
-                            <div
-                              id="acc_3"
-                              className="collapse show"
-                              aria-labelledby="cc_3"
-                              data-parent="#id_3"
-                            >
-                              <div className="card-body">
-                                <div className="ci-item with-bg">
-                                  <h5>
-                                    <i className="icon_menu-square_alt2"></i>
-                                    <Link to="/">         Sqlite
-</Link>
-                                  </h5>
-                                  <div className="ci-tools">
-                                    <Link to="/" className="time">
-                                    Jour 2
-                                    </Link>
-                                    <Link to="/" className="lock">
-                                      <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-          
-					
-					                    </div>
-										<div className="card-body">
-                                <div className="ci-item with-bg">
-                                  <h5>
-                                    <i className="icon_menu-square_alt2"></i>
-                                    <Link to="/">     Mysql
-</Link>
-                                  </h5>
-                                  <div className="ci-tools">
-                                    <Link to="/" className="time">
-                                    Jour 2
-                                    </Link>
-                                    <Link to="/" className="lock">
-                                      <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-          
-					
-					                    </div>
-                            </div>
-                          </div>
-						  <div className="curriculum-item" id="id_3">
-                            <div className="card-header" id="cc_3">
-                              <h5 className="mb-0">
-                                <button
-                                  className="btn btn-link"
-                                  data-toggle="collapse"
-                                  data-target="#acc_3"
-                                  aria-expanded="true"
-                                  aria-controls="acc_3"
-                                >
-            Les interfaces graphique avec Tkinter
-				  
-                                </button>
-								
-                              </h5>
-                            </div>
+                                >Les interfaces graphique avec Tkinter</button></h5></div>
                             <div
                               id="acc_3"
                               className="collapse show"
@@ -700,15 +637,7 @@ collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi vo
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-          
-					
-					                    </div>
-										
-                            </div>
-                          </div>
+                                    </Link></div></div></div></div></div>
                           <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
@@ -758,18 +687,7 @@ collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi vo
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
                                     </Link>
-                                  </div>
-                </div>
-						
-
-                               
-                          
-                             
-					                    </div>
-							  
-                            </div>
-                          </div>
-
+                                  </div></div></div></div></div>
                           <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
@@ -835,17 +753,7 @@ collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi vo
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					                    </div>
-							  
-                            </div>
-                          </div>
-
-                       
-
-                       
+                                    </Link></div></div></div></div></div>
                           <div className="curriculum-item" id="id_3">
                             <div className="card-header" id="cc_3">
                               <h5 className="mb-0">
@@ -878,13 +786,7 @@ collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi vo
                                     </Link>
                                     <Link to="/" className="lock">
                                       <i className="icon_lock_alt"></i>
-                                    </Link>
-                                  </div>
-                                </div>
-					                    </div>
-							  
-                            </div>
-                          </div>
+                                    </Link></div></div></div></div></div>
                           <h5>Cette formation sur un jour va associer la théorie et la pratique</h5>
                           <h5>Les phases pratiques sont des exercices ou des TPs pour arriver à des applications concrètes.</h5>
                         </div>
@@ -1261,9 +1163,9 @@ collaboratives avec les fonctionnalités les plus récentes, propulsant ainsi vo
                           <span>Instructeur: </span> Justin Case
                         </li>
                         <li>
-                          <i className="icon_document_alt"></i>
-                          <span>Conférences : </span> 14
-                        </li>
+    <i className="icon_document_alt"></i>
+    <span>Conférences : </span> 14
+</li>
                         <li>
                           <i className="icon_clock_alt"></i>
                           <span>Durée: </span> 3 Jours(21 heurs)

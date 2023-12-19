@@ -1,4 +1,3 @@
-import React from 'react';
 import './Bosstez.css';
 //import greenlinks from "../../img/greenlinks.png";
 

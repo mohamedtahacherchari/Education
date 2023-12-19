@@ -1,4 +1,3 @@
-import React from "react";
 import "./Temoignages.css";
 
 
@@ -9,8 +8,8 @@ const Testimonial = () => {
       <div className="testimonial-content" id="testimonial" >
         <h1>Témoignages</h1>
         <div className="profile-container">
-          <div class="profile">
-            <div class="icon-container">
+          <div className="profile">
+            <div className="icon-container">
             <img
              // src={profile4}
              src="assets/images/home/profile4.jpg"
@@ -20,7 +19,7 @@ const Testimonial = () => {
               height="100"
               style={{ borderRadius: "50%" }}
             />
-              <div class="icon-green">
+              <div className="icon-green">
                 <img
                  src="assets/images/home/greencheckicon.png"
                   alt="Coche verte"
@@ -30,7 +29,7 @@ const Testimonial = () => {
               </div>
               <p2>Amine B.</p2>
             </div>
-            <div class="star-container">
+            <div className="star-container">
               <img
             
                 src="assets/images/home/staricon.jpg"
@@ -73,8 +72,8 @@ const Testimonial = () => {
               main.La formation m'a donné l'élan nécessaire pour réorienter ma carrière vers Python.
             </p>
           </div>
-          <div class="profile">
-            <div class="icon-container">
+          <div className="profile">
+            <div className="icon-container">
             <img
               
               src= "assets/images/home/profile5.jpg"
@@ -84,7 +83,7 @@ const Testimonial = () => {
               height="100"
               style={{ borderRadius: "50%" }}
             />
-              <div class="icon-green">
+              <div className="icon-green">
                 <img
                 
                   src= "assets/images/home/greencheckicon.png"
@@ -96,7 +95,7 @@ const Testimonial = () => {
               </div>
               <p2>Alexandre N.</p2>
             </div>
-            <div class="star-container">
+            <div className="star-container">
               <img
                 
                 src= "assets/images/home/staricon.jpg"
@@ -141,8 +140,8 @@ const Testimonial = () => {
 
             </p>
           </div>
-          <div class="profile">
-            <div class="icon-container">
+          <div className="profile">
+            <div className="icon-container">
             <img
               
               src= "assets/images/home/profile6.jpg"
@@ -152,7 +151,7 @@ const Testimonial = () => {
               height="100"
               style={{ borderRadius: "50%" }}
             />
-              <div class="icon-green">
+              <div className="icon-green">
                 <img
                   src= "assets/images/home/greencheckicon.png"
 
@@ -163,7 +162,7 @@ const Testimonial = () => {
               </div>
               <p2>Adeline P.</p2>
             </div>
-            <div class="star-container">
+            <div className="star-container">
               <img
                 src= "assets/images/home/staricon.jpg"
  

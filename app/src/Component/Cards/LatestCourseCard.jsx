@@ -2,6 +2,14 @@ import ProtoTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 function LatestCourseCard({ img, name, offerPrice, price,courseLink }) {
+
+  LatestCourseCard.propTypes = {
+    img: ProtoTypes.string,
+    name: ProtoTypes.string,
+    offerPrice: ProtoTypes.string,
+    price: ProtoTypes.string,
+    courseLink: ProtoTypes.string, // Add this line
+  };
   return (
     <div className="latest-course">
       <Link to={courseLink}>
